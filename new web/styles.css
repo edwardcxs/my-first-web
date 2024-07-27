@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SF-Pro";
+    src: url(Inter-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(Inter-Regular.otf);
+}
+
+
+h1{
+    color: #0F67B1;
+    font-family:"SF-Pro";
+    text-align: center;
+    font-size: 80px;
+}
+
+h2{
+    color: #0F67B1;
+    font-size: 30px;
+    text-align: center;
+    font-family: "SF-Pro";
+}
+p{
+    text-align: center;
+    color: #ffffff;
+    font-family:"Inter";
+    font-size: 15px;
+}
+
+body{
+    background-image:url(webpage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+
+h3{
+    text-align:center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+
+table tbody{
+   display: table; 
+   width: 100%;
+}
